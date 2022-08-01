@@ -4,13 +4,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-:root {
-    --dark: #000000;
-    --darkestRed: #420303;
-    --darkerRed: #9e0a0a;
-    --darkRed: #FF0000;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -39,16 +32,16 @@
 
 .get-jokes {
     padding: 5px 50px;
-    border: 1px solid var(--darkestRed);
+    border: 1px solid #420303;
     border-radius: 5px;
     font-weight: 800;
-    color:var(--darkestRed);
-    background: var(--darkerRed);
+    color: #420303;
+    background: #9e0a0a;
     transition: .2s;
 }
 .get-jokes:hover {
-    background: var(--darkestRed);
-    color: var(--darkerRed);
+    background: #420303;
+    color: #9e0a0a;
     cursor: pointer;
 }
 
